@@ -6,11 +6,11 @@ The Mr Robot boot2root was created to feel like a hack from the series Mr Robot.
 
 ## Tools
 
-- Nmap  #For portscanning
-- Wfuzz #For directory bruteforcing and discovery
-- Firefox #To connect to the website
-- Hydra #Used for username enumeration and password bruteforcing
-- Terminal #Used to do everything else
+- **Nmap**  #For portscanning
+- **Wfuzz** #For directory bruteforcing and discovery
+- **Firefox** #To connect to the website
+- **Hydra** #Used for username enumeration and password bruteforcing
+- **Terminal** #Used to do everything else
 
 ## Scanning
 
@@ -21,15 +21,16 @@ The nmap command I used for this box is as follows
 nmap -sC -sV -p- -O -oA mr_robot <ip address>
 ```
 
-The arguments used are as follows
-
-- -sC -> Used to automatically perform default scripts on known ports.
-- -sV -> Attempt to get the version of the service on a port
-- -p- -> Scan all ports.  These will be TCP ports.
-- -O  -> Try to determine the operating system.
-- -oA mr_robot -> Output results to all types called mr_robot.&lt;extension&gt;
-- &lt;ip address&gt; -> The ip address of the target machine. In my case, it was 10.10.148.81.
-
+The arguments used are as follows<br/>
+|    |    |
+|----|----|
+**-sC** | Used to automatically perform default scripts on known ports.
+**-sV** | Attempt to get the version of the service on a port
+**-p-** |Scan all ports.  These will be TCP ports.
+**-O**  | Try to determine the operating system.
+**-oA** mr_robot | Output results to all types called mr_robot.&lt;extension&gt;
+**&lt;ip address&gt;** | The ip address of the target machine. In my case, it was 10.10.148.81.
+<br />
 This will take time to run so grab a coffee while you wait.
 
 Once finished, the following results I got were
