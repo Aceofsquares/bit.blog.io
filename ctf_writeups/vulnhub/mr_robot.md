@@ -60,4 +60,11 @@ OS and Service detection performed. Please report any incorrect results at https
 # Nmap done at Tue Aug 18 10:27:14 2020 -- 1 IP address (1 host up) scanned in 2622.94 seconds
 </pre>
 
-We see that ports 80 and 443 are open and port 22 is closed
+We see that ports 80 and 443 are open and port 22 is closed.  We also see the ports return header information about the server, Apache.  We can investigate this using a browser to see what the page looks like.
+
+Open the browser and in the URL bar enter http://&lt;ip address&gt;.  This should take you to a page that looks like a console.
+
+## Website 
+
+Now that we know there is a web site on the target machine I typically do some quick manual investigations, including looking at the source code, clicking any links and buttons, and entering data into fields in order to get a feel for the site.  You can type some commands in the page and it will present some information to you but this is largely a red herring.  The other bit I look at manually are site.xml and robots.txt.  When you open the robots.txt file you'll see 2 files.  One with the first key and another called fsocity.dic.
+
