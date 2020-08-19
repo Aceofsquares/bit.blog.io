@@ -36,8 +36,9 @@ The nmap command I used for this box is as follows
 nmap -sC -sV -p- -O -oA mr_robot <ip address>
 ```
 
-The arguments used are as follows<br/>
-|    |    |
+The arguments used are as follows
+<br/>
+|Argument|Explanation|
 |----|----|
 **-sC** | Used to automatically perform default scripts on known ports.
 **-sV** | Attempt to get the version of the service on a port
@@ -104,7 +105,7 @@ wfuzz -u http://<ip address>/FUZZ -w /path/to/common.txt --hc 404,403 -L --oF mr
 
 The arguments are as follows
 
-|    |    |
+|Argument|Explanation|
 |----|----|
 |**-u http://&lt;ip address&gt;/FUZZ** | The url of the web page.  In this case the /FUZZ are the directories we are going to be bruteforcing. |
 |**-w /path/to/common.txt** | The wordlist used to replace the /FUZZ in the URL.|
