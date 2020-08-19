@@ -41,12 +41,12 @@ The arguments used are as follows
 
 |Argument|Explanation|
 |----|----|
-**-sC** | Used to automatically perform default scripts on known ports.
-**-sV** | Attempt to get the version of the service on a port
-**-p-** |Scan all ports.  These will be TCP ports.
-**-O**  | Try to determine the operating system.
-**-oA** mr_robot | Output results to all types called mr_robot.&lt;extension&gt;
-**&lt;ip address&gt;** | The ip address of the target machine. In my case, it was 10.10.148.81.
+|**-sC** | Used to automatically perform default scripts on known ports.|
+|**-sV** | Attempt to get the version of the service on a port|
+|**-p-** |Scan all ports.  These will be TCP ports.|
+|**-O**  | Try to determine the operating system.|
+|**-oA** mr_robot | Output results to all types called mr_robot.&lt;extension&gt;|
+|**&lt;ip address&gt;** | The ip address of the target machine. In my case, it was 10.10.148.81.|
 
 <br />
 This will take time to run so grab a coffee while you wait.
