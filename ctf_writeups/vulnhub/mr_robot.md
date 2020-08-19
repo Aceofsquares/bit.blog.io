@@ -38,6 +38,7 @@ nmap -sC -sV -p- -O -oA mr_robot <ip address>
 
 The arguments used are as follows
 <br/>
+
 |Argument|Explanation|
 |----|----|
 **-sC** | Used to automatically perform default scripts on known ports.
@@ -46,6 +47,7 @@ The arguments used are as follows
 **-O**  | Try to determine the operating system.
 **-oA** mr_robot | Output results to all types called mr_robot.&lt;extension&gt;
 **&lt;ip address&gt;** | The ip address of the target machine. In my case, it was 10.10.148.81.
+
 <br />
 This will take time to run so grab a coffee while you wait.
 
